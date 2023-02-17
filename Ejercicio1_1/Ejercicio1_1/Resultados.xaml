@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio1_1.Resultados">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+                <Label Text="Resultado" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+            </Frame>
+
+            <Label Text="{Binding Titulo}" x:Name="txtTitulo" FontSize="30" Margin="10,0,5,5" />
+            <Label Text="{Binding Operar}"   HorizontalOptions="Center" x:Name="txtResultado" FontSize="30" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

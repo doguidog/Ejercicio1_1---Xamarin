@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio1_1.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="White" Padding="24" CornerRadius="0">
+            <Label Text="APP DE OPERACIONES MARVIN MARTINEZ" HorizontalTextAlignment="Center" TextColor="Black" FontSize="36"/>
+
+        </Frame>
+
+        <Label Text="Numero 1:" FontSize="16" Padding="30,10,30,10"/>
+        <Entry x:Name="txtNum1" Keyboard="Numeric" Placeholder="Digite un numero"/>
+
+        <Label Text="Numero 2:" FontSize="16" Padding="30,0,30,0"/>
+        <Entry x:Name="txtNum2" Keyboard="Numeric" Placeholder="Digite un numero"/>
+
+        <Button Text="Sumar"  x:Name="btnSuma" Clicked="btnSuma_Clicked"/>
+        <Button Text="Restar"  x:Name="btnResta" Clicked="btnResta_Clicked"/>
+        <Button Text="Multiplicar"  x:Name="btnMulti" Clicked="btnMulti_Clicked"/>
+        <Button Text="Dividir"  x:Name="btnDiv" Clicked="btnDiv_Clicked"/>
+    </StackLayout>
+
+</ContentPage>
